@@ -1,0 +1,4 @@
+John,10
+Mike,13
+Kira,14
+Oleg,12
