@@ -40,14 +40,17 @@ class Quadrate extends Figure {
     }
 }
 
-$r=newRectangle();
-$q=newQuadrate();
+$r=new Rectangle();
+$q=new Quadrate();
+
 
 echo $r->getSquare(4,8);
+echo "<pre>";
 echo $r->getPerimeter(4,8);
-
-echo $q->getSquare(4,4);
-echo $q->getPerimeter(4,4);
+echo "<pre>";
+echo $q->getSquare(5,5);
+echo "<pre>";
+echo $q->getPerimeter(5,5);
 
 
 
